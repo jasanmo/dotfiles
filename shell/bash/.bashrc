@@ -1,3 +1,5 @@
+export DENO_INSTALL="/Users/javi/.deno"
+export PATH=~/.deno/bin/deno:$PATH
 export DOTFILES_PATH="/Users/javi/.dotfiles"
 export DOTLY_PATH="$DOTFILES_PATH/modules/dotly"
 export DOTLY_THEME="codely"
@@ -41,3 +43,4 @@ if [ -n "$(ls -A "$DOTFILES_PATH/shell/bash/completions/")" ]; then
     source "$bash_file"
   done
 fi
+
